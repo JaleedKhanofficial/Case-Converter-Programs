@@ -1,0 +1,27 @@
+# Step 16
+# You will need to convert uppercase characters to lowercase and add an underscore before them.
+
+# Before proceeding to work on the list comprehension, you're going to give your function a return value. In this way you'll be able to check the output.
+
+# Use the return statement to return the list snake_cased_char_list from your function.
+
+def convert_to_snake_case(pascal_or_camel_cased_string):
+    # snake_cased_char_list = []
+    # for char in pascal_or_camel_cased_string:
+    #     if char.isupper():
+    #       converted_character = '_' + char.lower()
+    #       snake_cased_char_list.append(converted_character)
+    #     else:
+    #         snake_cased_char_list.append(char)
+    # snake_cased_string = ''.join(snake_cased_char_list)
+    # clean_snake_cased_string = snake_cased_string.strip('_')
+
+    # return clean_snake_cased_string
+
+    snake_cased_char_list = []
+    return snake_cased_char_list            # step 16
+
+def main():
+    print(convert_to_snake_case('aLongAndComplexString'))
+
+main()
